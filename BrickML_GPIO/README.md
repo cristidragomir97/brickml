@@ -49,7 +49,7 @@ For our purposes, and simplicity, I guess **heap_4** and **heap_5** are the best
 #### 2.4 Pins 
 The last step to get our RA6 MCU ready to blink, is to tell the pinmux about the pins we want to use. 
 
-The Reloc Board/Kit/Whatever has a RGB LED and a button on the board. They are connected to the following pins. 
+The Reloc Kit has a RGB LED and a button on the board. They are connected to the following pins. 
 
 ```c
 #define BLUE_LED BSP_IO_PORT_00_PIN_07
