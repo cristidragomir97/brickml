@@ -75,8 +75,6 @@ Go to **Project Settings > C/C++ Build > Settings > C/C++ General > Paths and Sy
 ![](https://i.imgur.com/7bsnLra.png)
 
 ### 4. Modifications to the Edge Impulse SDK port for RA6M5
-From my personal experience, it seems like the RA6M5 port of edge impulse is missing some includes, and has some half-backed implementations. Here's my tweaked code. 
-Please note that I just ignored the `ei_printf` method as it's redundant. 
 
 Go to `<your_project_name>/src/edge-impulse-sdk/porting/renesas-ra6m5/ei_classifier_porting.cpp`  and paste the following code: 
 ```c 
