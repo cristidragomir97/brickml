@@ -33,6 +33,7 @@ Another important setting you'll find here is the **Mode**. There's continuous s
 ![](https://i.imgur.com/FpfEa6V.png)
 
 Next up, we'll select what Channels can be read in a single scan:
+
 ![](https://i.imgur.com/S5uZ6CJ.png)
 
 At this section, we'll need to give the FSP Configurator the name of the method that it should call when an ADC scan has ended, and set the FreeRTOS priority of that callback:
